@@ -38,7 +38,7 @@ export default function SignIn() {
               placeholder="Email address"
               className="w-full px-4 py-2 text-xl text-gray-700 bg-white rounded border-gray-300 transition ease-in-out duration-150 mb-6"
             />
-            <div className="relative mb-6">
+            <div className="relative mb-2">
               <input
                 type={showPassword ? "text" : "password"}
                 id="password"
@@ -59,8 +59,8 @@ export default function SignIn() {
                 />
               )}
             </div>
-            <div className="flex justify-between whitespace-nowrap text-sm sm:text-lg">
-              <p className="mb-6 ">
+            <div className="flex justify-between whitespace-nowrap text-sm ">
+              <p className="mb-8 ">
                 Don't have an account?
                 <Link
                   to="/sign-up"
